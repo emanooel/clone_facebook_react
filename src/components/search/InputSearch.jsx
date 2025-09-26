@@ -1,4 +1,4 @@
-import SearchIcon from '../../assets/search.svg'
+import SearchIcon from '../../assets/icones/search.svg'
 import Button from '../button/Button'
 import InputText from '../Input/Input'
 import "./InputSearch.css"

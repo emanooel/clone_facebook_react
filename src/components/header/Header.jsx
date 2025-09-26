@@ -1,6 +1,6 @@
 import "./Header.css"
 import InputSearch from "../search/InputSearch"
-import Menu from "../../assets/menu.svg"
+import Menu from "../../assets/icones/menu.svg"
 import Button from "../button/Button"
 import Logo from "../Logo"
 
