@@ -1,10 +1,10 @@
 .input{
-    background-color: #f0f2f5;
+    background-color: #e4e6eb;
     color: rgb(156, 156, 156);
     border: none;
     border-radius: 20px;
     padding: 12px;
-    width: 210px;
+    max-width: 100%;
 }
 .input:focus{
     outline: none;

@@ -1,0 +1,18 @@
+.bg-red-500{
+    background-color: rgb(233, 66, 66);
+}
+.rounded{
+    border-radius: 50%;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.text-white{
+    color: aliceblue;
+}
+.font-sm{
+    font-size: 10px;
+}

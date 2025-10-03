@@ -1,4 +1,6 @@
-export default function IconNotification({ icone }) {
+import Badge from "../badge/Badge";
+
+export default function IconNotification({ icone, num_notifications }) {
   
   let estilo = {
     width: "24px",
@@ -6,7 +8,10 @@ export default function IconNotification({ icone }) {
 
   return (
     <>
-      <img src={icone} alt="" style={estilo} />
+    <div style={{position:"relative"}}>
+        <img src={icone} alt="" style={estilo} />
+        <Badge notifications={num_notifications}/>
+    </div>
     </>
   );
 }
