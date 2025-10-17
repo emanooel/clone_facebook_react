@@ -1,0 +1,11 @@
+.icon{
+    width: 20px;
+    margin-right: 400px;
+}
+.flex{
+    display: flex;
+    gap:4px;
+}
+.margin-left{
+    margin-left: 4px;
+}

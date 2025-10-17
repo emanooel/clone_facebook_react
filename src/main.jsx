@@ -8,6 +8,8 @@ import QuickAccess from './components/quickaccess/QuickAccess.jsx'
 import IconNotification from './components/iconnotification/IconNotification.jsx'
 import FotoPerfil from './components/fotoPerfil/FotoPerfil.jsx'
 import InputText from './components/Input/Input.jsx'
+import InputStatus from './components/inputstatus/InputStatus.jsx'
+import Post from './components/post/Post.jsx'
 
 // ICONES DO QUICK ACCESS
 import Casa from './assets/icones/home.svg'
@@ -39,6 +41,7 @@ createRoot(document.getElementById('root')).render(
       <div className='flex flex-row justify-around gap-2'>
         
       </div>
+      <Post/>
       <p>Storys</p>
       <p>feed</p>
     </Wrapper>
